@@ -1,0 +1,86 @@
+[
+    {
+        "nombre":"Dipper Pines",
+        "edad":"12 años",
+        "ocupacion":"Investigador de misterios",
+        "descripcion":"Un chico inteligente y curioso que investiga los secretos de Gravity Falls.",
+        "imagen":"imagenes/dipper.jpg"
+    },
+    {
+        "nombre":"Mabel Pines",
+        "edad":"12 años",
+        "ocupacion":"Estudiante",
+        "descripcion":"Hermana gemela de Dipper. Es alegre, divertida y muy optimista.",
+        "imagen":"imagenes/mabel.jpg"
+    },
+    {
+        "nombre":"Stan Pines",
+        "edad":"58 años",
+        "ocupacion":"Dueño de la Mystery Shack",
+        "descripcion":"Tío abuelo de Dipper y Mabel y propietario de la atracción turística más famosa del pueblo.",
+        "imagen":"imagenes/stan.jpg"
+    },
+    {
+        "nombre":"Soos Ramirez",
+        "edad":"22 años",
+        "ocupacion":"Empleado de la Mystery Shack",
+        "descripcion":"Amigo fiel de Dipper y Mabel. Siempre está dispuesto a ayudar.",
+        "imagen":"imagenes/soos.jpg"
+    },
+    {
+        "nombre":"Wendy Corduroy",
+        "edad":"15 años",
+        "ocupacion":"Empleada de la Mystery Shack",
+        "descripcion":"Joven aventurera y amiga cercana de Dipper.",
+        "imagen":"imagenes/wendy.jpg"
+    },
+    {
+        "nombre":"Bill Cipher",
+        "edad":"Desconocida",
+        "ocupacion":"Entidad sobrenatural",
+        "descripcion":"Poderoso demonio interdimensional y principal villano de la serie.",
+        "imagen":"imagenes/bill.jpg"
+    },
+    {
+        "nombre":"Gideon Gleeful",
+        "edad":"9 años",
+        "ocupacion":"Telepredicador infantil",
+        "descripcion":"Rival de Dipper y obsesionado con Mabel.",
+        "imagen":"imagenes/gideon.jpg"
+    },
+    {
+        "nombre":"Grenda",
+        "edad":"12 años",
+        "ocupacion":"Estudiante",
+        "descripcion":"Una de las mejores amigas de Mabel.",
+        "imagen":"imagenes/grenda.jpg"
+    },
+    {
+        "nombre":"Candy Chiu",
+        "edad":"12 años",
+        "ocupacion":"Estudiante",
+        "descripcion":"Amiga inteligente y amable de Mabel.",
+        "imagen":"imagenes/candy.jpg"
+    },
+    {
+        "nombre":"Robbie Valentino",
+        "edad":"16 años",
+        "ocupacion":"Estudiante",
+        "descripcion":"Joven rebelde y exnovio de Wendy.",
+        "imagen":"imagenes/robbie.jpg"
+    },
+    {
+        "nombre":"Pacifica Northwest",
+        "edad":"12 años",
+        "ocupacion":"Estudiante",
+        "descripcion":"Chica rica de Gravity Falls que cambia su actitud con el tiempo.",
+        "imagen":"imagenes/pacifica.jpg"
+    },
+    {
+        "nombre":"Old Man McGucket",
+        "edad":"70 años",
+        "ocupacion":"Inventor",
+        "descripcion":"Genio inventor con un pasado misterioso.",
+        "imagen":"imagenes/old man.jpg"
+    }
+]

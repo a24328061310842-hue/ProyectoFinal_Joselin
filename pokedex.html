@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pokedex.css">
+    <title>Joselin Garcia De Luna - Pokédex</title>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- IZQUIERDA -->
+    <div class="info">
+
+        <h1>Maestra Pokémon: Joselin</h1>
+
+        <!-- IMAGEN ABAJO DEL TÍTULO -->
+        <div class="imagenes">
+            <img 
+                src="b26bc28a-4325-4630-abdb-5e97bc30ec9c.png"
+                alt="Entrenadora"
+                class="fondo">
+        </div>
+
+        <!-- INPUT -->
+        <input
+            type="text"
+            placeholder="Escribe un Pokémon..."
+            id="pokeName"
+            name="pokeName"
+            class="placeholder"
+            onkeypress="if(event.key==='Enter') fetchPokemon()">
+
+        <!-- BOTÓN -->
+        <button onclick="fetchPokemon()" class="button">
+            Buscar 
+        </button>
+
+    </div>
+
+    <!-- CENTRO -->
+    <div class="pokemon-container">
+
+        <img
+            src="800px-Volcarona.png"
+            alt="Volcarona"
+            id="pokeImg">
+
+    </div>
+
+    <!-- DERECHA -->
+    <div class="datos">
+
+        <h2>Información:</h2>
+
+        <div id="pokename" class="pokeimg1"></div>
+
+        <div id="pokeType" class="pokeimg1"></div>
+
+        <div id="pokeitem" class="pokeimg1"></div>
+
+        <br>
+
+        <h3>Movimientos:</h3>
+
+        <div id="pokemove1" class="pokeimg1"></div>
+
+        <div id="pokemove2" class="pokeimg1"></div>
+
+        <div id="pokemove3" class="pokeimg1"></div>
+
+        <div id="pokemove4" class="pokeimg1"></div>
+
+        <br>
+
+        <div id="pokeid" class="pokeid"></div>
+
+        <div id="pokeorder" class="pokeorder"></div>
+
+        <br>
+
+        <h3>Estadísticas Base</h3>
+
+        <canvas id="miCanvas"></canvas>
+
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="pokedex.js"></script>
+
+</body>
+</html>
